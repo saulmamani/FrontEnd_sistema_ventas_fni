@@ -1,10 +1,14 @@
 <template>
   <div id="app">
     <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
+      <router-link to="/">Principal</router-link> |
+      <router-link to="/about">Sobre mi</router-link> |
+      <router-link to="/personas">Personas</router-link>
     </div>
+
+<!--    Aqui es donde se cargan las vistas de router y de router-link-->
     <router-view/>
+
   </div>
 </template>
 
